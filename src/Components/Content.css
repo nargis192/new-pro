@@ -1,0 +1,230 @@
+.Content{
+    min-height: 80vh;
+    background-color:#f0f0f0 ;
+    margin-top: 10vh;
+}
+
+.Contentinner {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    margin:2.5%;
+    background-color: white;
+  }
+  
+  .Contentheading {
+    height: 4%;
+    width: 96.5%;
+    border-radius: 15px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f0f0f0 ;
+    color: gray;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+  }
+  
+  .Contentheadingleft {
+    height: 100%;
+    width: 55%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .Contentheadingright {
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+
+  .Contentheadingrightsearch{
+    height: 120%;
+    width: 15%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .Contentheadinglightbutton{
+    height: 130%;
+    width: 65%;
+    /* border: 2px solid black; */
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .Contentlist {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Contentlist1 {
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+  .Contentlist1service{
+    width: 20%;
+    /* border: 2px solid black ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .Contentlist1service1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    /* border: 2px solid black ; */
+    
+  }
+  .Contentlist1service img{
+    margin: 0px;
+    /* border: 2px solid black ; */
+   
+    
+  }
+  .Contentlist1address{
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+  }
+  .Contentlist1address h4 {
+    color: rgb(50, 49, 49);
+  }
+  .Contentlist1address p{
+    color: gray;
+    font-weight: bold;
+  }
+  .Contentlist1service1 h5{
+    margin:0px;
+    color: rgb(53, 52, 52);
+  }
+  .Contentlist1service1 p{
+    margin:0px;
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+  }
+  .Contentlist1status{
+    height: 45%;
+    width: 25%;
+    /* border: 2px solid black; */
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .Contentlist1 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .ready{
+    height: 70%;
+    width: 25%;
+    background-color: rgba(232, 232, 103, 0.748);
+    border: 1px solid rgb(178, 161, 9);
+    padding: 5px;
+    border-radius: 7px;
+    color: rgb(124, 112, 5);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px;
+  }
+  .deployed{
+    height: 70%;
+    width: 35%;
+    /* background-color:azure; */
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 7px;
+    color: green;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px;
+  }
+  
+  .free{
+    height: 70%;
+    width: 25%;
+    background-color:chips gray;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    border-radius: 7px;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px;
+  }
+  .Contentlist1button{
+    height: 70%;
+    width: 27%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .connect{
+    height: 70%;
+    width: 35%;
+    background-color:aquamarine;
+    color:black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+  }
+  .monitor{
+    height: 70%;
+    width: 35%;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+  }
+  .arrrow{
+    height: 70%;
+    width: 15%;
+    background-color:#f0f0f0 ;
+    border: none;
+    color: blue;
+    border-radius: 10px;
+  }

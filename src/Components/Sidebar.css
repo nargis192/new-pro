@@ -1,0 +1,91 @@
+/* Sidebar container */
+.Sidebar {
+    width: 17.5vw; /* Adjust the width as needed */
+    height: 100vh; /* Make sidebar height full */
+    /* background-color: #f0f0f0; Background color */
+    border-right:#f0f0f0 2px solid; 
+    position: fixed;
+    
+   
+  }
+  .logoimage{
+    margin-top: 5px;
+    width: 150px; 
+   
+   
+  }
+  /* SidebarTop */
+  .SidebarTop {
+    width: 100%; /* Adjust the width as needed */
+    height: 10%; 
+    text-align: center; 
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  /* SidebarMid */
+  .SidebarMid {
+    width: 100%; /* Adjust the width as needed */
+    height: 25%;
+    border-bottom: 2px solid #f0f0f0;
+    display: flex;
+    flex-direction: column; /* Use flexbox for layout */
+    align-items: center; 
+    justify-content: space-evenly;/* Add top margin */
+  }
+  
+  /* Sidebarprojectdiv, Sidebarmanagingdiv */
+  .Sidebarprojectdiv,
+  .Sidebarmanagingdiv {
+    width: 85%; /* Adjust the width as needed */
+    height: 18%;
+    display: flex; /* Use flexbox for layout */
+    align-items:center; 
+    justify-content: space-evenly;/* Center align items vertically */
+    padding: 5px 0;
+    color: gray;
+    border-radius: 10px;
+    background-color: #f0f0f0; /* Add padding */
+  }
+  
+  /* Arrow icon */
+ 
+  
+  /* SidebarBottom */
+  .SidebarBottom {
+    width: 100%; /* Adjust the width as needed */
+    height: 30%;
+    display: flex;
+    flex-direction: column; /* Use flexbox for layout */
+    align-items: center; 
+    justify-content: space-evenly;/* Add top margin */
+    /* margin-top: 20px;  */
+    /* border: 2px solid black; */
+   
+    border-bottom: 2px solid #f0f0f0;/* Add top margin */
+  }
+  
+  /* Sidebarbilingdiv, Sidebarsupportdiv, Sidebarsettingdiv, SidebarApiiv */
+  .Sidebarbilingdiv,
+  .Sidebarsupportdiv,
+  .Sidebarsettingdiv,
+  .SidebarApiiv {
+    width: 85%;
+    margin-left: 25px;
+    display: flex; /* Use flexbox for layout */
+    align-items:center; 
+    color: gray;
+    /* justify-content: space-between; */
+    /* border: 2px solid black; */
+     /* Add padding */
+  }
+  
+  /* sideebarFooter */
+  .sideebarFooter {
+    width: 100%; /* Adjust the width as needed */
+    height: 10%;
+    margin-top: auto; 
+   /* Push to the bottom */
+  }
+  .SidebarBottom span{
+    margin-left: 10px;
+  }

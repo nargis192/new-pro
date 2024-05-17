@@ -3,10 +3,35 @@
     width: 17.5vw; /* Adjust the width as needed */
     height: 100vh; /* Make sidebar height full */
     /* background-color: #f0f0f0; Background color */
-    border-right:#f0f0f0 2px solid; 
+    /* border-right:#f0f0f0 2px solid;  */
     position: fixed;
+    background-color: white;
+  }
+  
     
+  .sidebarlight{
+    width: 17.5vw; /* Adjust the width as needed */
+    height: 100vh;
+    /* border-right:#f0f0f0 2px solid;  */
+    position: fixed;
+  }
+  .sidebardark{
+    width: 17.5vw; /* Adjust the width as needed */
+    height: 100vh;
    
+    position: fixed;
+    background-color:black;
+    border-right: gray 1px solid;
+  }
+  .sidebardark .Sidebarprojectdiv
+   {
+    background-color: rgb(72, 70, 70);
+    color:white;
+  }
+  .sidebardark .Sidebarmanagingdiv
+   {
+    background-color: rgb(72, 70, 70);
+    color:white;
   }
   .logoimage{
     margin-top: 5px;
@@ -22,14 +47,30 @@
     border-bottom: 2px solid #f0f0f0;
   }
   
+  .sidebardark .SidebarTop {
+    border-bottom: gray 1px solid;
+    /* border-right:gray 1px solid;  */
+    
+  }
+  .sidebardark .SidebarMid {
+    border-bottom: gray 1px solid;
+    /* border-right:gray 1px solid;  */
+    
+  }
+  
+  .sidebardark .SidebarBottom{
+    border-bottom: gray 1px solid;
+    /* border-right:gray 1px solid;  */
+    
+  }
   /* SidebarMid */
   .SidebarMid {
     width: 100%; /* Adjust the width as needed */
-    height: 25%;
+    min-height: 30%;
     border-bottom: 2px solid #f0f0f0;
     display: flex;
     flex-direction: column; /* Use flexbox for layout */
-    align-items: center; 
+    align-items:center; 
     justify-content: space-evenly;/* Add top margin */
   }
   
@@ -37,7 +78,7 @@
   .Sidebarprojectdiv,
   .Sidebarmanagingdiv {
     width: 85%; /* Adjust the width as needed */
-    height: 18%;
+    height: 20%;
     display: flex; /* Use flexbox for layout */
     align-items:center; 
     justify-content: space-evenly;/* Center align items vertically */
@@ -45,6 +86,9 @@
     color: gray;
     border-radius: 10px;
     background-color: #f0f0f0; /* Add padding */
+    margin-top: 10px;
+    cursor: pointer;
+   
   }
   
   /* Arrow icon */
@@ -88,4 +132,88 @@
   }
   .SidebarBottom span{
     margin-left: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  .managinglists{
+    height: 70%;
+    /* border: 2px solid black; */
+    width: 80%;
+    color: gray;
+    font-size: 15px;
+  }
+  .projectslist{
+    height: 70%;
+    /* border: 2px solid black; */
+    width: 80%;
+    color: gray;
+    font-size: 15px;
+
+  }
+
+  @media screen and (min-width: 451px) and (max-width: 800px) {
+    .Sidebar {
+    width: 24.5vw; /* Adjust the width as needed */
+    /* height: 100vh; */
+   
+  }
+  .logoimage{
+    margin-top: 10px;
+    width: 110px; 
+    
+   
+  }
+  .sidebarlight{
+    width: 24.5vw; /* Adjust the width as needed */
+    height: 100vh;
+  }
+
+  .SidebarTop{
+    height: 12vh;
+    width: 24.5vw; 
+   
+  }
+  .SidebarMid{
+    width: 23.5vw; 
+  }
+  .SidebarBottom{
+    width: 24.5vw; 
+    
+  }
+  .Sidebarbilingdiv,
+  .Sidebarsupportdiv,
+  .Sidebarsettingdiv,
+  .SidebarApiiv {
+   
+    margin-left: 10px;
+  }
+  .Sidebarprojectdiv,
+  .Sidebarmanagingdiv {
+    width: 94%; /* Adjust the width as needed */
+  }
+  .managinglists .projectslist{
+    font-size: 13px;
+  }
+  .sidebardark .Sidebar {
+    width: 24.5vw; /* Adjust the width as needed */
+    height: 100vh;
+   
+   
+  }
+  .sidebardark{
+    width: 24.5vw; /* Adjust the width as needed */
+    height: 100vh;
+    
+  }
+  }
+  @media screen and (min-width: 801px) and (max-width: 1050px){
+    .logoimage{
+      margin-top: 10px;
+      width: 130px; 
+      }
+    .sidebardark .logoimage{
+      margin-top: 10px;
+      width: 130px; 
+    }
   }

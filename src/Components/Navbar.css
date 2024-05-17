@@ -9,8 +9,52 @@
     border-bottom:#f0f0f0 2px solid; 
     position: fixed;
     top: 0;
-  
+    z-index: 999;
     background-color: white;
+    margin-bottom: 10vh;
+  }
+  .navbarlight{
+    height:10vh ;
+    width: 82vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* padding: 10px; */
+    color: gray;
+    border-bottom:#f0f0f0 2px solid; 
+    position: fixed;
+    top: 0;
+    margin-bottom: 10vh;
+    z-index: 999;
+    background-color: white;
+  }
+  .navbardark{
+    height:10vh ;
+    width: 82vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* padding: 10px; */
+    margin-bottom: 10vh;
+    border-bottom:gray 1px solid; 
+    position: fixed;
+    top: 0;
+    color:gray;
+    background-color: black;
+    z-index: 999;
+
+  }
+  .navbardark .Navbarleftchangetheme{
+     background-color: rgb(72, 70, 70);
+     color:white;
+  }
+  .navbardark .Navbarrightnotify{
+    background-color: rgb(72, 70, 70);
+    color:white;
+    }
+ .navbardark .Navbarrightprofile{
+  background-color: rgb(72, 70, 70);
+  color:white;
   }
  
   .Navbarleft {
@@ -95,3 +139,189 @@
     
   }
   
+ 
+  
+  .light .sun.active {
+    color: yellow; /* Adjust the color for active mode */
+  }
+  
+  .light .moon.active {
+    color: #333; /* Adjust the color for active mode */
+  }
+  
+  .light p.active {
+    font-weight: bold; 
+    display: none;
+  }
+  
+  /* Dark Mode */
+  .dark {
+  
+  
+  }
+  
+  .dark .sun.active {
+    color: #f0f0f0; /* Adjust the color for active mode */
+  }
+  
+  .dark .moon.active {
+    color: rgb(201, 167, 103);
+    /* background-color: black; */
+    
+  }
+  
+  .dark p.active {
+    font-weight: bold; 
+    display: none;/* Bold font for active mode text */
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 450px) {
+    .Navbar {
+      width: 200vw;
+      border: 2px black solid;
+      margin:0px;
+      padding:0px;
+    }
+    .navbarlight{
+      height:10vh ;
+      width: 100vw;
+      margin:0px;
+      padding:0px;
+      margin-bottom: 2vh;
+     
+    }
+    .Navbarleft {
+      width: 30%;
+      height: 80%;
+      }
+
+    .Navbarright {
+      width: 50%;
+      height: 80%;
+      
+    }
+    .Navbarrightprofilecontent h4{
+      margin: 0px;
+      font-size: 10px;
+      /* border: 2px solid black; */
+    }
+    .Navbarrightprofilecontent p{
+      margin: 0px;
+      font-size: 9px;
+    }
+
+    .navbardark .Navbar {
+      width: 200vw;
+      border: 2px black solid;
+      margin:0px;
+      padding:0px;
+    }
+    .navbardark {
+      height:10vh ;
+      width: 100vw;
+      margin:0px;
+      padding:0px;
+     
+    }
+    .navbardark .Navbarleft {
+      width: 30%;
+      height: 80%;
+      border: 2px solid black;}
+
+    .navbardark .Navbarright {
+      width: 50%;
+      height: 80%;
+      border: 2px solid black;
+    }
+    .navbardark .Navbarrightprofilecontent h4{
+      margin: 0px;
+      font-size: 10px;
+      /* border: 2px solid black; */
+    }
+    .navbardark .Navbarrightprofilecontent p{
+      margin: 0px;
+      font-size: 9px;
+    }
+  }
+  @media screen and (min-width: 451px) and (max-width: 800px) {
+    .Navbar {
+      width:90vw;
+     
+      margin:0px;
+      padding:0px;
+     
+    }
+    .navbarlight{
+      height:12vh ;
+      width: 75vw;
+      margin:0px;
+      padding:0px;
+      
+    }
+    .Navbarleft {
+      width: 30%;
+      height: 80%;
+      
+    }
+
+    .Navbarright {
+      width: 50%;
+      height: 80%;
+      
+    }
+    .Navbarrightprofilecontent h4{
+      margin: 0px;
+      font-size: 10px;
+      /* border: 2px solid black; */
+    }
+    .Navbarrightprofilecontent p{
+      margin: 0px;
+      font-size: 9px;
+    }
+    .navbardark .Navbar{
+      width:90vw;
+      border: 2px black solid;
+      margin:0px;
+      padding:0px;
+    
+    }
+    .navbardark{
+      height:12vh ;
+      width: 75vw;
+      margin:0px;
+      padding:0px;
+      
+    }
+
+    
+  }
+
+  @media screen and (min-width: 801px) and (max-width: 1050px){
+    .Navbarleft {
+      width: 22%;
+      height: 80%;
+     
+      }
+      .Navbarright {
+        width: 35%;
+        height: 80%;
+        
+      }
+      .navbardark .Navbarleft {
+        width: 22%;
+        height: 80%;
+        
+        }
+      .navbardark .Navbarright {
+        width: 35%;
+        height: 80%;
+       
+      }
+  }
+  @media screen and (min-width: 1051px) {
+    .Navbarright {
+      width: 28%;
+      height: 80%;
+     
+    }
+  }
